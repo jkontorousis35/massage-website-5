@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Relaxology Massage Therapy</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <img src="your-logo-file.png" alt="Relaxology Logo" class="logo" />
+    
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Booking</a></li>
+      <li><a href="contact.html">Contact</a></li> 
+    </ul>
+  </nav>
+  
+
+  <section class="intro" data-aos="fade-up">
+    <h2>Welcome to Relaxology</h2>
+    <p>Where ancient tradition meets modern healing. Discover deep relaxation, relief from tension, and a renewed sense of balance with our personalized massage therapy.</p>
+  </section>
+
+  <section class="services" id="services" data-aos="fade-up">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Swedish Relaxation Massage</li>
+      <li>Deep Tissue Therapy</li>
+      <li>Sports Massage</li>
+      <li>Hot Stone Massage</li>
+      <li>Prenatal Massage</li>
+    </ul>
+    
+  </section>
+
+  <section class="gallery" id="gallery" data-aos="fade-up">
+    <h2>Gallery</h2>
+    <div class="gallery-images">
+      <img src="massage 1.jpeg" alt="Massage photo 1">
+      <img src="massage 2.jpeg" alt="Massage photo 2">
+      <img src="massage 3.jpeg" alt="Massage photo 3">
+    </div>
+  </section>
+
+  <section class="testimonials" id="testimonials" data-aos="fade-up">
+    <h2>Client Testimonials</h2>
+    <blockquote>
+      "I felt completely renewed after my session at Relaxology. Truly life-changing!" — Maria K.
+    </blockquote>
+    <blockquote>
+      "John has a healing touch and a kind spirit. Highly recommend!" — Alex P.
+    </blockquote>
+  </section>
+
+  <section class="booking" id="contact" data-aos="fade-up">
+    <h2>Book an Appointment</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="text" placeholder="Preferred Date & Time" required>
+      <textarea placeholder="Additional Notes"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  
+  
+  
+
+  <script>
+    document.getElementById("contact-heading").addEventListener("click", function() {
+      const details = document.getElementById("contact-details");
+      if (details.style.display === "none") {
+        details.style.display = "block";
+      } else {
+        details.style.display = "none";
+      }
+    });
+  </script>
+  
+  
+  
+  
+
+  <footer>
+    <p>&copy; 2025 Relaxology. All rights reserved.</p>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
